@@ -11,6 +11,10 @@ public class TodController {
 	@GetMapping(value="/message")
 	public String getMessage() {
 		return "Hi , welcome to my Todo App";
-		
+	}
+	
+	@GetMapping(value="/message")
+	public String getAllMessage() {
+		return "Hi , welcome to my Todo App for all message";
 	}
 }
